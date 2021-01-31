@@ -1,6 +1,8 @@
-body { display: block; width: 700px; margin-left: auto; margin-right: auto; }
-header { text-align: center; background-color: darkgrey; }
-nav { text-align: center; }
-aside { float: left; text-align: center; background-color: darkgrey; }
-article { display: block; text-align: center; background-color: grey}
-footer { text-align: center; background-color: gray; background-color: lightgrey }
+body { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto auto 1fr auto;
+    grid-template-areas: "h h h" "n n n" "as ar ar" "f f f"; min-height: 90vh;
+    }
+header { grid-area: h; text-align: center; background-color: darkgrey; }
+nav { grid-area: n; text-align: center; }
+aside { grid-area: as; text-align: center; background-color: darkgrey; }
+article { grid-area: ar; text-align: center; background-color: grey}
+footer { grid-area: f; text-align: center; background-color: lightgrey }
