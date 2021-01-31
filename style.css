@@ -1,5 +1,5 @@
 body { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto auto 1fr auto;
-    grid-template-areas: "h h h" "n n n" "as ar ar" "f f f"; min-height: 90vh;
+    grid-template-areas: "h h h" "n n n" "as ar ar" "f f f"; min-height: 100vh; max-width: 60vw; margin: 0 auto;
     }
 header { grid-area: h; text-align: center; background-color: darkgrey; }
 nav { grid-area: n; text-align: center; }
