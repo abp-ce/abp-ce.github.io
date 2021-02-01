@@ -1,10 +1,9 @@
 html { background-image: url("https://cdn.pixabay.com/photo/2020/06/04/19/56/hill-5260303__480.jpg"); background-size: 100%; }
 body { display: grid; grid-template-columns: 1fr 1fr 1fr; grid-template-rows: auto auto 1fr auto;
-    grid-template-areas: "h h h" "n n n" "as ar ar" "f f f"; min-height: 100vh; max-width: 60vw; margin: 0 auto;
-    opacity: 35%;
+    grid-template-areas: "h h h" "n n n" "as ar ar" "f f f"; min-height: 100vh; max-width: 60vw; margin: 0 auto
     }
-header { grid-area: h; text-align: center; background-color: darkgrey; }
+header { grid-area: h; text-align: center; background-color: rgba( 169, 169, 169, .35); }
 nav { grid-area: n; text-align: center; }
-aside { grid-area: as; text-align: center; background-color: darkgrey; }
-article { grid-area: ar; text-align: center; background-color: grey}
-footer { grid-area: f; text-align: center; background-color: lightgrey }
+aside { grid-area: as; text-align: center; background-color: rgba( 169, 169, 169, .35); }
+article { grid-area: ar; text-align: center; background-color: rgba( 128, 128, 128, .35)}
+footer { grid-area: f; text-align: center; background-color: rgba( 211, 211, 211, .35) }
